@@ -48,8 +48,7 @@ public class SimpleApolloConfigDemo {
 
   public static void main(String[] args) throws IOException {
     SimpleApolloConfigDemo apolloConfigDemo = new SimpleApolloConfigDemo();
-    System.out.println(
-        "Apollo Config Demo. Please input key to get the value. Input quit to exit.");
+    System.out.println("Apollo Config Demo. Please input key to get the value. Input quit to exit.");
     while (true) {
       System.out.print("> ");
       String input = new BufferedReader(new InputStreamReader(System.in, Charsets.UTF_8)).readLine();

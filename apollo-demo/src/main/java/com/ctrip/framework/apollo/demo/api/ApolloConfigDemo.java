@@ -97,8 +97,7 @@ public class ApolloConfigDemo {
   public static void main(String[] args) throws IOException {
     ApolloConfigDemo apolloConfigDemo = new ApolloConfigDemo();
     apolloConfigDemo.printEnvInfo();
-    System.out.println(
-        "Apollo Config Demo. Please input key to get the value.");
+    System.out.println("Apollo Config Demo. Please input key to get the value.");
     while (true) {
       System.out.print("> ");
       String input = new BufferedReader(new InputStreamReader(System.in, Charsets.UTF_8)).readLine();
