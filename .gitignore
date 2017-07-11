@@ -25,3 +25,9 @@ target
 
 # git
 *.orig
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+*.log
